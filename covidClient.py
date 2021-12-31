@@ -3,7 +3,7 @@
 
 import xmlrpc.client
 
-server = xmlrpc.client.ServerProxy("http://localhost:8000")
+server = xmlrpc.client.ServerProxy("http://103.171.85.200:81")
 
 exit = False
 

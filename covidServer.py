@@ -24,7 +24,7 @@ nama_list = readlines(sys.argv[2])
 class RequestHandler(SimpleXMLRPCRequestHandler):
   rpc_paths = ('/RPC2',)
 
-with SimpleXMLRPCServer(("localhost", PORT), RequestHandler) as server:
+with SimpleXMLRPCServer(("0.0.0.0", PORT), RequestHandler) as server:
     
     def lapor(nik: str, nama_pelapor:str, nama_terduga:str, gejala:str, alamat:str):        
         # Check valid nik
