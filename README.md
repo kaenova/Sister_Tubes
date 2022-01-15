@@ -1,4 +1,15 @@
 # Tubes SISTER Siaga COVID-19
+
+Argumen file Server:
+```sh
+python covidServer.py [database nik text] [database nama text] [port]
+```
+Argumen file Client:
+```sh
+python Client.py
+```
+
+
   
 Cara menjalankan secara lokal:  
 1. Ubah line 4 pada file `Client.py` yang sebelumnya `http://103.171.85.200:81` menjadi `http://localhost:[port yang diinginkan]`.
